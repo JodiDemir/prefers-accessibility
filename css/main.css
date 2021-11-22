@@ -60,10 +60,9 @@ html {
   }
 
 }
-
 /* stylelint-disable media-feature-name-no-unknown */
 
-@@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion) {
 
   img {
     animation: none;
@@ -71,7 +70,7 @@ html {
 
 }
 
-@@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
   body {
     background-color: #111;
